@@ -42,7 +42,7 @@ if not static_file.exists():
     print("Static variables downloaded!")
 
 ## 2. Daily Download Loop for 10 Days
-dates = pd.date_range(start="2020-03-20", end="2021-01-01")
+dates = pd.date_range(start="1988-01-01", end="2018-01-01")
 
 for dt in dates:
     day_str = dt.strftime("%Y-%m-%d")
